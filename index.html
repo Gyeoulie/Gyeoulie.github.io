@@ -1,42 +1,425 @@
 <!DOCTYPE html>
-<!-- Comment ctrl+/ -->
-<html>
-  <head>
-    <title>Gyeoulie | Web Developer Portfolio</title>
-    <link rel="icon" type="jpg" href="./images/choerry.jpg" />
-    <link rel="stylesheet" type="text/css" href="./style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto&display=swap"
-      rel="stylesheet"
-    />
+<html lang="en">
 
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
-      crossorigin="anonymous"
-    />
-  </head>
-  <body>
-    <div class="container">
-      <section id="landing" class="text-center mt-5">
-        <h1>Full Stack Web Developer</h1>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Running Man</title>
+    <link rel="stylesheet" href="resources/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nexa:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-        <p>Hi! My name is Gyeoulie and I love LOONA.</p>
-        <img src="./images/choerry.jpg" class="img-fluid" id="profile" />
+</head>
 
-        <a href="https://gyeouliee.carrd.co/" class="btn btn-primary mt-3"
-          >Get to Know Me!</a
-        >
-      </section>
-    </div>
+<body>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+
+    <header>
+        <nav>
+            <div class="top-nav">
+                <div class="logo">
+                    <img src="resources/images/logo.png" alt="Running Man Logo">
+                </div>
+                <ul class="nav-links">
+                    <li class="nav-items"><a href="#home">Home</a></li>
+                    <li class="nav-items"><a href="#members">Members</a></li>
+                    <li class="nav-items"><a href="#featured-games">Games</a></li>
+                    <li class="nav-items"><a href="#gallery">Gallery</a></li>
+                    <li class="nav-items"><a href="#franchise">Global</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <button id="scrollTopBtn" class="scroll-top-btn" title="Go to top">&#8679;</button>
+        <section id="hone" class="home">
+            <div class="image-container">
+                <img class="home-image" src="resources/images/home.jpg" alt="Home Image">
+            </div>
+
+            <div class="title">
+                <div class="title-container">
+                    <h1>런닝맨 RUNNING MAN</h1>
+                </div>
+            </div>
+
+            <div class="description">
+                <div class="description-container">
+                    <p>Welcome to the world of "Running Man," where excitement knows no limits and laughter reigns
+                        supreme. "Running Man" is not just a TV show; it's an exhilarating journey filled with
+                        adrenaline-pumping challenges, hilarious games, and unforgettable moments. Join our cast of
+                        entertaining celebrities as they race against time, complete missions, and embark on epic
+                        adventures. Whether you're a longtime fan or new to the show, get ready for non-stop
+                        entertainment that will keep you on the edge of your seat. Explore our site to learn more about
+                        the show, meet the cast, and discover why "Running Man" has captured the hearts of millions
+                        around the world. Get ready to run, laugh, and experience the thrill of "Running Man" like never
+                        before!</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="members" class="members">
+
+            <div class="title">
+                <div class="title-container">
+                    <h1>멤버 MEMBERS</h1>
+                </div>
+            </div>
+
+            <div class="members-list">
+                <div class="member-item">
+                    <img class="member-image" src="resources/images/members/yoojaesuk.jpg" alt="Yoo Jae Suk">
+                    <div class="member-description">
+                        <h1>유재석 Yoo Jae Suk</h1>
+                        <p>Yoo Jae-suk, the mastermind behind the madness on "Running Man," is like the conductor of a
+                            chaotic symphony. With his quick quips and contagious laughter, he turns every mishap into a
+                            moment of hilarity. Whether he's trying to decipher cryptic clues or convincing the cast
+                            that he's secretly a spy, Yoo Jae-suk keeps us all on our toes – and in stitches. He's the
+                            glue that holds the mayhem together, the captain of our laughter ship, and the reason why
+                            "Running Man" feels like home to fans worldwide.</p>
+                    </div>
+                </div>
+                <div class="member-item">
+                    <img class="member-image" src="resources/images/members/kimjongkook.webp" alt="Kim Jong Kook">
+                    <div class="member-description">
+                        <h1>김종국 Kim Jong Kook</h1>
+                        <p>Kim Jong-kook, the "Commander" of "Running Man," is the epitome of strength, charm, and a
+                            hint of cheesy charm. With muscles that could rival a superhero and a voice that could
+                            serenade angels, Kim Jong-kook brings both brawn and humor to the show. Whether he's flexing
+                            his muscles in a competition or belting out a tune to woo the ladies, he never fails to
+                            entertain. But beneath the tough exterior lies a heart of gold, as he's always there to
+                            protect his fellow cast members and make sure everyone has a good time. In short, Kim
+                            Jong-kook is not just a member of "Running Man" – he's the muscle-bound hero we never knew
+                            we needed.</p>
+                    </div>
+                </div>
+                <div class="member-item">
+                    <img class="member-image" src="resources/images/members/haha.jpg" alt="HaHa">
+                    <div class="member-description">
+                        <h1>하하 HaHa</h1>
+                        <p>HaHa, the mischievous prankster of "Running Man," is the embodiment of fun and
+                            unpredictability. With his endless energy and playful antics, HaHa keeps everyone on their
+                            toes. Whether he's pulling pranks on his fellow cast members or diving headfirst into the
+                            wackiest challenges, his infectious laughter and carefree spirit light up the show. Known
+                            for his hilarious impersonations and musical outbursts, HaHa is the wild card that adds an
+                            extra layer of excitement and joy to every episode.</p>
+                    </div>
+                </div>
+                <div class="member-item">
+                    <img class="member-image" src="resources/images/members/songjihyo.jpg" alt="Song Ji Hyo">
+                    <div class="member-description">
+                        <h1>송지효 Song Ji Hyo</h1>
+                        <p>Song Ji-hyo, the "Ace" of "Running Man," is known for her fierce competitiveness and cool
+                            demeanor. With her sharp instincts and fearless approach, Ji-hyo tackles every challenge
+                            head-on, earning her the respect of her teammates and fans alike. Despite her tough
+                            exterior, she's also loved for her genuine, down-to-earth personality and her ability to
+                            switch from intense to hilarious in an instant. Ji-hyo's unwavering determination and
+                            surprising wit make her a standout member of the team.</p>
+                    </div>
+                </div>
+                <div class="member-item">
+                    <img class="member-image" src="resources/images/members/yangsechan.jpg" alt="Yang Se Chan">
+                    <div class="member-description">
+                        <h1>양세찬 Yang Se Chan</h1>
+                        <p>Yang Se-chan, the comedic powerhouse of "Running Man," brings a fresh burst of energy and
+                            humor to the team. With his quick wit and natural ability to make people laugh, Se-chan fits
+                            seamlessly into the group, often turning mundane moments into comedic gold. Whether he's
+                            participating in a fierce competition or cracking jokes at just the right moment, his
+                            playful personality and relentless humor ensure that the fun never stops.</p>
+                    </div>
+                </div>
+                <div class="member-item">
+                    <img class="member-image" src="resources/images/members/jeeseokjin.jpeg" alt="Jee Seok Jin">
+                    <div class="member-description">
+                        <h1>지석진 Jee Seok Jin</h1>
+                        <p>Jee Seok-jin, affectionately known as the "Impala" on "Running Man," is the resident jokester
+                            and master of slapstick comedy. With his endearing clumsiness and witty banter, Jee Seok-jin
+                            adds a touch of hilarity to every mission and challenge. He may not always win the games,
+                            but he certainly wins our hearts with his lovable antics and infectious laughter. Whether
+                            he's tripping over his own feet or cracking jokes that only he finds funny, Jee Seok-jin
+                            proves that you don't need to be the fastest or the strongest to be a star on "Running Man."
+                            He's the king of comedy, the master of mishaps, and the reason why we can't stop laughing.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="featured-games" class="featured-game">
+            <div class="title">
+                <div class="title-container">
+                    <h1>Featured Games</h1>
+                </div>
+            </div>
+            <div class="game-content">
+                <div class="game-image">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/d-QE2y4yZc0?si=DHtzsh60Ee4Ugx8G"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="game-text">
+                    <h2>Name Tag Elimination (네임 태그 제거)</h2>
+                    <p>Dive into the heart-pounding excitement of Name Tag Elimination, known as 네임 태그 제거 in Korean, one
+                        of the most iconic and thrilling games on Running Man. Players compete to remove each other's
+                        name tags while completing various missions. This game combines strategy, speed, and loads of
+                        fun, making it a fan favorite on Running Man!</p>
+
+                </div>
+            </div>
+            <div class="game-content">
+                <div class="game-image">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ytyttJugTbs?si=tHRrIv1rWebs_ANl"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="game-text">
+                    <h2>Pirate Roulette (해적 룰렛)</h2>
+                    <p>Dive into the heart-pounding excitement of Pirate Roulette, known as 해적 룰렛 in Korean, one of the
+                        most iconic and nail-biting games on Running Man. Players take turns removing swords from a
+                        barrel, hoping to avoid triggering the pirate and losing the game. With suspense at every turn,
+                        Pirate Roulette combines luck, strategy, and sheer entertainment for an unforgettable gaming
+                        experience!</p>
+
+                </div>
+            </div>
+            <div class="game-content">
+                <div class="game-image">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/cfDLkmMx5hw?si=BVOUuwClQyHrIa1y"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="game-text">
+                    <h2>Running Man Quiz (런닝맨 퀴즈)</h2>
+                    <p>Test your knowledge and wit with the Running Man Quiz, known as 런닝맨 퀴즈 in Korean, a challenging
+                        and exhilarating game that will put your brainpower to the test. Compete against fellow cast
+                        members to answer trivia questions, solve puzzles, and complete challenges that span a wide
+                        range of topics. With laughs, surprises, and plenty of excitement along the way, the Running Man
+                        Quiz promises an unforgettable experience for fans of all ages!</p>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="gallery">
+            <div class="gallery-title">
+                <h1>RUNNING MAN GALLERY</h1>
+            </div>
+            <div class="gallery-content">
+                <div class="big-image">
+                    <img src="resources/images/gallery/1.png" alt="Big Gallery Image">
+                </div>
+                <div class="small-images first-set"> <!-- Added class "first-set" -->
+                    <div class="small-image">
+                        <img src="resources/images/gallery/2.png" alt="Gallery Image 1">
+                    </div>
+                    <div class="small-image">
+                        <img src="resources/images/gallery/3.png" alt="Gallery Image 2">
+                    </div>
+                    <div class="small-image">
+                        <img src="resources/images/gallery/4.png" alt="Gallery Image 3">
+                    </div>
+                    <div class="small-image">
+                        <img src="resources/images/gallery/5.png" alt="Gallery Image 4">
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-content">
+                <div class="small-images second-set"> <!-- Added class "second-set" -->
+                    <div class="small-image">
+                        <img src="resources/images/gallery/6.jpg" alt="Gallery Image 5">
+                    </div>
+                    <div class="small-image">
+                        <img src="resources/images/gallery/7.jpg" alt="Gallery Image 6">
+                    </div>
+                    <div class="small-image">
+                        <img src="resources/images/gallery/8.jpg" alt="Gallery Image 7">
+                    </div>
+                    <div class="small-image">
+                        <img src="resources/images/gallery/9.jpg" alt="Gallery Image 8">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="franchise" class="franchise">
+            <div class="title">
+                <div class="title-container">
+                    <h1>Global Versions</h1>
+                </div>
+            </div>
+            <div class="franchise-wrapper" style="user-select: none;">
+                <div class="franchise-content scrollingX">
+                    <div class="card-testimonial">
+                        <article>
+                            <picture>
+                                <img src="resources/images/franchise/china.jpg" alt="Sample Image">
+                            </picture>
+                            <h4>Running Man China</h4>
+                            <article class="short-description">
+                                <p>The Chinese version of Running Man brings unique challenges and exciting games,
+                                    maintaining the original spirit with local flavor.</p>
+                            </article>
+                        </article>
+                    </div>
+                    <div class="card-testimonial">
+                        <article>
+                            <picture>
+                                <img src="resources/images/franchise/ph.jpg" alt="Sample Image">
+                            </picture>
+                            <h4>Running Man Philippines</h4>
+                            <article class="short-description">
+                                <p>With a vibrant cast and thrilling activities, the Philippine edition offers fresh
+                                    takes on beloved Running Man games.</p>
+                            </article>
+                        </article>
+                    </div>
+                    <div class="card-testimonial">
+                        <article>
+                            <picture>
+                                <img src="resources/images/franchise/viet.webp" alt="Sample Image">
+                            </picture>
+                            <h4>Running Man Vietnam</h4>
+                            <article class="short-description">
+                                <p>The Vietnamese adaptation features local celebrities and heart-pounding challenges,
+                                    making it a hit among fans.</p>
+                            </article>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-flex footer-items-center footer-justify-between">
+                    <div class="footer-logo">
+                        <img src="resources/images/logo.png" class="footer-logo-img" alt="Flowbite Logo" />
+                        <span class="footer-brand">Running Man</span>
+                    </div>
+                    <ul class="footer-menu">
+                        <li>
+                            <a href="#home" class="footer-menu-link">About</a>
+                        </li>
+                        <li>
+                            <a href="https://programs.sbs.co.kr/en/enter/runningman/main"
+                                class="footer-menu-link">SBS</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-menu-link">Licensing</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-menu-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <hr class="footer-divider" />
+                <span class="footer-copyright">© 2024 Runing Man. All Rights Reserved.</span>
+            </div>
+        </footer>
+
+    </main>
+
+</body>
+<script>
+    const franchiseWrapper = document.querySelector(".franchise-wrapper");
+    const franchiseContent = document.querySelector(".franchise-content");
+
+    // Clone the franchise content to enable infinite scrolling
+    const clonedContent = franchiseContent.cloneNode(true);
+    franchiseWrapper.appendChild(clonedContent);
+
+    // Set up the draggable feature for the franchise carousel
+    let isDragging = false;
+    let startX = 0;
+    let scrollLeft = 0;
+    const scrollSpeed = 2; // Adjust scroll speed as needed
+
+    franchiseWrapper.addEventListener("mousedown", (e) => {
+        isDragging = true;
+        startX = e.pageX - franchiseWrapper.offsetLeft;
+        scrollLeft = franchiseWrapper.scrollLeft;
+    });
+
+    franchiseWrapper.addEventListener("mouseleave", () => {
+        isDragging = false;
+    });
+
+    franchiseWrapper.addEventListener("mouseup", () => {
+        isDragging = false;
+    });
+
+    franchiseWrapper.addEventListener("mousemove", (e) => {
+        if (!isDragging) return;
+        e.preventDefault();
+        const x = e.pageX - franchiseWrapper.offsetLeft;
+        const walk = (x - startX) * scrollSpeed;
+        franchiseWrapper.scrollLeft = scrollLeft - walk;
+    });
+
+    // Infinite scrolling functionality
+    franchiseWrapper.addEventListener("scroll", () => {
+        if (
+            franchiseWrapper.scrollLeft + franchiseWrapper.offsetWidth >=
+            franchiseContent.offsetWidth * 2
+        ) {
+            franchiseWrapper.scrollLeft -= franchiseContent.offsetWidth;
+        } else if (franchiseWrapper.scrollLeft <= 0) {
+            franchiseWrapper.scrollLeft += franchiseContent.offsetWidth;
+        }
+    });
+
+    document.addEventListener("DOMContentLoaded", function () {
+        const navLinks = document.querySelectorAll('.nav-items a');
+
+        navLinks.forEach(link => {
+            link.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href').substring(1);
+                const targetSection = document.getElementById(targetId);
+                if (targetSection) {
+                    const offsetTop = targetSection.offsetTop;
+                    window.scrollTo({
+                        top: offsetTop,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    });
+
+
+    document.addEventListener("DOMContentLoaded", function () {
+        const scrollTopBtn = document.getElementById('scrollTopBtn');
+
+        // Show scroll-to-top button when user scrolls down
+        window.addEventListener('scroll', function () {
+            if (window.scrollY > 300) { // Adjust scroll distance as needed
+                scrollTopBtn.style.display = 'block';
+            } else {
+                scrollTopBtn.style.display = 'none';
+            }
+        });
+
+        // Scroll to top when button is clicked
+        scrollTopBtn.addEventListener('click', function () {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    });
+
+</script>
+
 </html>
